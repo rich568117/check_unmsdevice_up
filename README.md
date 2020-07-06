@@ -2,6 +2,7 @@
 ```
 Bash script to check the status of a router in UNMS using the UNMS API v2.1
 ``` 
+More information on the UNMS API can be found here: https://unms.docs.apiary.io/#
 # Usage:
 ```
 check_unmsdevice_up <DEVICEGUID>
