@@ -1,17 +1,21 @@
 # check_unmsdevice_up
- Bash script to check the status of a router in UNMS using the UNMS API v2.1
- 
+```
+Bash script to check the status of a router in UNMS using the UNMS API v2.1
+``` 
 # Usage:
+```
 check_unmsdevice_up <DEVICEGUID>
-
+```
 # Output: 
+```
 exit 0 outputs: "OK - <DEVICE NAME> is online."
 exit 3 outputs: "CRITICAL - <DEVICE NAME> is offline."
- 
+```
  
 # Nagios Command syntax:
+```
 $USER1$/check_unmsdevice_up.sh $ARG1$
-
+```
 # Nagios Usage in Host/Service:
 ```
 define host {
