@@ -11,11 +11,11 @@ if [ "$result" -gt "80" ]
 then
 echo "CRITICAL - $1 has high CPU usage."
  exit 3
- ;;
+ 
 else
 echo "OK - $1 CPU is under threshold."
  exit 0
- ;;
+ 
  fi
 }
 
